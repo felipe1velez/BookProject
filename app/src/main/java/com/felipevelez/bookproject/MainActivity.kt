@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
             infoTextView.text = nameBook
             val nameAuthor : String = nameAuthorEditText.text.toString()
             infoTextView.text = nameAuthor
+
+
+            
         }
     }
 }
