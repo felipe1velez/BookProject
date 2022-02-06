@@ -2,6 +2,7 @@ package com.felipevelez.bookproject
 
 import android.app.DatePickerDialog
 import android.os.Bundle
+import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.felipevelez.bookproject.databinding.ActivityMainBinding
@@ -82,5 +83,40 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        Toast.makeText(this,"Hasta Pronto",Toast.LENGTH_SHORT).show()
+    }
+
+    override fun onStart() {
+        super.onStart()
+        Log.d("state","onStart")
+    }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("state","onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("state","onPause")
+    }
+
+    override fun onStop() {
+        super.onStop()
+        Log.d("state","onStop")
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("state","onDestroy")
+    }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("state","onRestart")
     }
 }
