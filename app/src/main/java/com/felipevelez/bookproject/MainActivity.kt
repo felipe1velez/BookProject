@@ -49,8 +49,8 @@ class MainActivity : AppCompatActivity() {
             
             saveButton.setOnClickListener {
 
-                if (nameBookEditText.text.isEmpty() ||
-                    nameAuthorEditText.text.isEmpty() ||
+                if (nameBookEditText.text?.isEmpty()  == true ||
+                    nameAuthorEditText.text?.isEmpty()  == true ||
                     pagesEditText.text?.isEmpty() == true
                 ) {
                     Toast.makeText(applicationContext, "Debe digitar nombre, autor y el número de páginas", Toast.LENGTH_SHORT).show()

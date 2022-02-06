@@ -3,7 +3,7 @@
     <string name="register_book">Registro de un libro</string>
     <string name="book_name">Nombre:</string>
     <string name="author">Autor:</string>
-    <string name="page">Número de páginas:</string>
+    <string name="pages">Número de páginas:</string>
     <string name="resume">Resumen:</string>
     <string name="info">Nombre: %s \nAutor: %s \nPáginas: %d \nResumen: %s \nGenero: %s\nscore: %d \nFecha de Publicación: %s</string>
     <string name="genre">Género</string>
@@ -12,7 +12,7 @@
     <string name="infantile">Infantil</string>
     <string name="fiction">Ficción</string>
     <string name="score">Calificación</string>
-    <string name="numbre_one">1</string>
+    <string name="number_one">1</string>
     <string name="number_two">2</string>
     <string name="number_three">3</string>
     <string name="number_four">4</string>
